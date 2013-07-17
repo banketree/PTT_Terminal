@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zzy.ptt"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/ptt_icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.zzy.ptt.ui.MainPageActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zzy.ptt.action.REGISTER" />
+
+                <category android:name="com.zzy.ptt.category.REGISTER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.TestActivity"
+            android:label="@string/tview_main_group" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.AboutActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.BaseActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.GroupActivity"
+            android:label="@string/tview_main_group" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.CallLogTabActivity"
+            android:label="@string/tview_main_calllog" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.DialActivity"
+            android:label="@string/tview_main_dial"
+             >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.MessageActivity"
+            android:label="@string/tview_main_sms" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.SettingActivity"
+            android:label="@string/tview_main_setting" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.SettingDetailActivity"
+            android:label="@string/tview_setting_title_register" >
+            <intent-filter>
+                <action android:name="com.zzy.ptt.action.REGISTER" />
+
+                <category android:name="com.zzy.ptt.category.REGISTER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.InCallScreenActivity"
+            android:label=""
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.PTTActivity"
+            android:label=""
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.AddContactActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.PBKActivity"
+            android:label="@string/tview_main_pbk" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.EditContactActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.OperateActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.ChatActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.NewMsgActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.zzy.ptt.ui.AlertActivity"
+            android:label=""
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+
+        <service
+            android:name="com.zzy.ptt.service.PTTService"
+            android:enabled="true" >
+        </service>
+
+        <receiver android:name="com.zzy.ptt.service.MessageReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MESSAGE_RESULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.zzy.ptt.service.PTTKeyReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PTT.down" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PTT.up" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.key_number" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.zzy.ptt.service.PTTCmReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.cm_connected" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.cm_disconnected" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

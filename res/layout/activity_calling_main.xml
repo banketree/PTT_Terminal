@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:scrollbars="horizontal" >
+
+        <EditText
+            android:id="@+id/p_digits"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dial_num_bg_press"
+            android:clickable="false"
+            android:focusableInTouchMode="false"
+            android:freezesText="true"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:gravity="center"
+            android:paddingLeft="16.0px"
+            android:paddingRight="16.0px"
+            android:scrollHorizontally="true"
+            android:textColor="#b2ffffff"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:scrollbars="horizontal" >
+
+        <ImageView
+            android:id="@+id/pone"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_num_one"
+            android:tag="1" />
+
+        <ImageView
+            android:id="@+id/ptwo"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_num_two"
+            android:tag="2" />
+
+        <ImageView
+            android:id="@+id/pthree"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_num_three"
+            android:tag="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:scrollbars="horizontal" >
+
+        <ImageView
+            android:id="@+id/pfour"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_num_four"
+            android:tag="4" />
+
+        <ImageView
+            android:id="@+id/pfive"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_num_five"
+            android:tag="5" />
+
+        <ImageView
+            android:id="@+id/psix"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_num_six"
+            android:tag="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:scrollbars="horizontal" >
+
+        <ImageView
+            android:id="@+id/pseven"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_num_seven"
+            android:tag="7" />
+
+        <ImageView
+            android:id="@+id/penight"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_num_eight"
+            android:tag="8" />
+
+        <ImageView
+            android:id="@+id/pnine"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_num_nine"
+            android:tag="9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:scrollbars="horizontal" >
+
+        <ImageView
+            android:id="@+id/pmi"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_start"
+            android:tag="*" />
+
+        <ImageView
+            android:id="@+id/p0"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_num_zero"
+            android:tag="0" />
+
+        <ImageView
+            android:id="@+id/pjing"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_wellno"
+            android:tag="#" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:scrollbars="horizontal" >
+        
+        <ImageView
+            android:id="@+id/psearch"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_blank_left"
+            android:tag=" " />
+
+
+        <ImageView
+            android:id="@+id/pphone"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_call_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_call"
+            android:tag="Call" />
+
+        <ImageView
+            android:id="@+id/pdel"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_bg"
+            android:padding="3dip"
+            android:src="@drawable/dial_back"
+            android:tag="Del" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/test" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dip"
+            android:layout_marginTop="80dp" >
+
+            <TextView
+                android:id="@+id/et_current_grp"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:text="@string/current_grp"
+                android:textColor="#0000ff"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dip"
+            android:layout_marginTop="45dip" >
+
+            <TextView
+                android:id="@+id/et_ptt_talker"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:text="@string/ptt_talker"
+                android:textColor="#0000ff"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dip"
+            android:layout_marginTop="40dip" >
+
+            <TextView
+                android:id="@+id/et_ptt_status"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:text="@string/ptt_status"
+                android:textColor="#0000ff"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_pttkey"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="34dp"
+        android:drawableTop="@drawable/ptt_ptt2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_pttkey"
+        android:layout_alignRight="@+id/btn_pttkey"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="62dp"
+        android:text="@string/ptt_call_menu"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+</RelativeLayout>

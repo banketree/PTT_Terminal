@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">对讲机</string>
+    <!-- Button -->
+    <string name="btn_register">注册</string>
+    <string name="btn_makecall">拨号</string>
+    <string name="btn_hangup">挂断</string>
+    <string name="btn_answer">接听</string>
+    <string name="btn_init">初始化</string>
+    <string name="btn_sendmsg">发送信息</string>
+    <string name="btn_destory">销毁</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_call">呼叫</string>
+    <string name="btn_incoming">来电</string>
+    <string name="btn_calllog">通话记录</string>
+    <string name="btn_choose_ringtone">选择铃声</string>
+    <!-- mainpage -->
+    <string name="tview_main_group">群组</string>
+    <string name="tview_main_dial">拨号</string>
+    <string name="tview_main_sms">信息</string>
+    <string name="tview_main_pbk">通讯录</string>
+    <string name="tview_main_calllog">通话记录</string>
+    <string name="tview_main_setting">设置</string>
+    <string name="current_group">当前组：</string>
+    <string name="current_num">号码：</string>
+    <!-- register -->
+    <string name="register_not">未注册</string>
+    <string name="register_ing">正在注册</string>
+    <string name="register_ed">已注册</string>
+    <string name="register_error">注册失败</string>
+    <!-- call screen -->
+    <string name="call_dialing">呼叫</string>
+    <string name="call_incoming">来电</string>
+    <string name="call_ending">正在结束</string>
+    <string name="call_ended">通话结束</string>
+    <string name="call_single">单呼</string>
+    <!-- call log -->
+    <string name="log_delete">删除</string>
+    <string name="log_delete_all">删除所有</string>
+    <string name="log_reason_1">主动挂断</string>
+    <string name="log_reason_2">对方挂断</string>
+    <string name="log_reason_3">异常挂断</string>
+    <!-- sms -->
+    <string name="sms_send">发送消息</string>
+    <!-- setting page -->
+    <string name="setting_talking">通话设置</string>
+    <string name="setting_register">注册信息设置</string>
+    <string name="setting_alertring">提示音设置</string>
+    <string name="setting_system">系统设置</string>
+    <string name="setting_call_single_volume">单呼音量调节</string>
+    <string name="setting_call_ring_volume">来电铃声音量调节</string>
+    <string name="setting_call_ptt_volume">对讲音量调节</string>
+    <string name="setting_condition">情景模式</string>
+    <string name="setting_cond_ring">铃声</string>
+    <string name="setting_cond_virabate">震动</string>
+    <string name="tview_setting_server">服务器IP</string>
+    <string name="tview_setting_port">端口</string>
+    <string name="tview_setting_username">用户名</string>
+    <string name="tview_setting_password">密码</string>
+    <string name="tview_setting_title_register">注册信息设置</string>
+    <string name="checkbox_setting_autoanswer">单呼自动接听</string>
+    <string name="checkbox_setting_autoregister">自动注册</string>
+    <string name="setting_auto_start">开机自启动</string>
+    <string name="setting_current_group">设置默认对讲组</string>
+    <string name="setting_current_group_on">    √</string>
+    <string name="setting_current_group_off1">当前处于对讲中</string>
+    <string name="setting_current_group_off2">无法切换对讲组！</string>
+    <string name="setting_server5">.</string>
+    <string name="setting_register_pw">注册需输入密码！</string>
+    <string name="setting_register_pw_false">密码错误！</string>
+    <string name="setting_register_ip_false">IP格式错误</string>
+    <string name="setting_debug_switch">调试模式</string>
+    <!-- notification -->
+    <string name="notify_title">PTT</string>
+    <string name="notify_content">调度终端</string>
+    <string name="notify_ticker">调度终端</string>
+    <!-- menu -->
+    <string name="menu_return">返回</string>
+    <string name="menu_speaker">免提</string>
+    <string name="menu_handset">听筒</string>
+    <string name="menu_earphone">耳机</string>
+    <string name="menu_answer">接听</string>
+    <string name="menu_register">注册</string>
+    <string name="menu_minialmize">最小化</string>
+    <string name="menu_exit">彻底退出</string>
+    <string name="menu_reregister">重新注册</string>
+    <string name="menu_return_ptt">对讲</string>
+    <!-- alert -->
+    <string name="alert_btn_yes">是</string>
+    <string name="alert_btn_no">否</string>
+    <string name="alert_btn_ok">确定</string>
+    <string name="alert_btn_cancel">取消</string>
+    <string name="alert_title">提示</string>
+    <string name="alert_title_server_null">服务器信息未设置</string>
+    <string name="alert_title_user_null">用户信息未设置</string>
+    <string name="alert_title_init">初始化</string>
+    <string name="alert_title_exit">退出</string>
+    <string name="alert_title_register">注册</string>
+    <string name="alert_title_outingcall">呼叫</string>
+    <string name="alert_title_ifexit">是否完全退出</string>
+    <string name="alert_title_choosear">选择放音设备</string>
+    <string name="alert_msg_outingcall_fail">呼叫失败</string>
+    <string name="alert_msg_register_fail">注册失败</string>
+    <string name="alert_msg_password_null">密码未设置</string>
+    <string name="alert_msg_server_wrong">服务器信息配置出错</string>
+    <string name="alert_msg_user_wrong">用户信息配置出错</string>
+    <string name="alert_msg_registerinfo_null">注册信息不得为空</string>
+    <string name="alert_msg_registering">正在注册</string>
+    <string name="alert_msg_initing">正在初始化</string>
+    <string name="alert_msg_exiting">正在退出</string>
+    <string name="alert_msg_init_fail">初始化失败,需重新安装应用程序</string>
+    <string name="alert_msg_ifreregister">内容已经修改,是否重新注册</string>
+    <string name="alert_number_null">号码不得为空</string>
+    <string name="alert_number_onlynum">号码只能为数字</string>
+    <string name="alert_msg_norings">没有铃声</string>
+    <string name="alert_msg_receive_ptt">检测到对讲，是否切换到对讲界面</string>
+    <string name="alert_msg_error_msg">错误信息</string>
+    <string name="alert_msg_error_code">错误码</string>
+    <string name="alert_msg_status_msg">状态信息</string>
+    <string name="alert_msg_status_code">状态码</string>
+    <string name="alert_msg_cm_disconnected">网络未连接</string>
+    <string name="alert_msg_no_group">没有组信息</string>
+    <string name="alert_msg_fail_ptt">呼叫失败</string>
+    <string name="alert_msg_media_fail">打开音频设备失败，请手动重启应用</string>
+    <string name="alert_msg_ptt_not_closed">当前对讲没有彻底关闭，不能修改默认对讲组</string>
+    <string name="alert_msg_deleted_from_ptt">从对讲组%1$s中被删除，对讲已关闭</string>
+    <string name="alert_msg_calllog_save_fail">存储通话记录失败</string>
+    <string name="alert_msg_no_enough_space">存储空间不足，请手动删除一些数据</string>
+    <string name="alert_msg_401">用户名或密码错误</string>
+    <string name="alert_msg_403">没有权限</string>
+    <string name="alert_msg_408">请求超时</string>
+    <string name="alert_msg_481">事务已不存在</string>
+    <string name="alert_msg_500">服务器内部错误</string>
+    <string name="alert_msg_503">网络不可用</string>
+    <string name="alert_msg_502">网关错误</string>
+    <string name="alert_msg_486">对方正忙</string>
+    <string name="alert_msg_504">与服务器连接已断开</string>
+    <string name="alert_msg_no_ptt">对讲已经被关闭</string>
+    <string name="alert_msg_sc_grpnum">禁止单呼组号</string>
+    <!-- hint -->
+    <string name="hint_serverip">输入ServerIP</string>
+    <string name="hint_port">输入端口</string>
+    <string name="hint_username">输入用户名</string>
+    <string name="hint_password">输入密码</string>
+    <!-- call screen -->
+    <!-- sharepreference keys -->
+    <string name="sp_password">PTT_SP_PASSWORD</string>
+    <string name="sp_username">PTT_SP_USERNAME</string>
+    <string name="sp_serverip">PTT_SP_SERVERIP</string>
+    <string name="sp_port">PTT_SP_PORT</string>
+    <string name="sp_autoregister">PTT_SP_AUTOREGISTER</string>
+    <string name="sp_auto_answer">PTT_SP_AUTOANSWER</string>
+    <string name="sp_ar_handset">PTT_SP_HANDSET</string>
+    <string name="sp_ar_speaker">PTT_SP_SPEAKER</string>
+    <string name="sp_call_ring_volume">CALL_RING_VOLUME</string>
+    <string name="sp_call_single_volume">CALL_SINGLE_VOLUME</string>
+    <string name="sp_call_ptt_volume">PTT_RING_VOLUME</string>
+    <string name="sp_init_flag">PTT_INIT_FLAG</string>
+    <string name="sp_ring_enable">PTT_RING_ENABLE</string>
+    <string name="sp_virabate_enable">PTT_VIRABATE_ENABLE</string>
+    <string name="sp_current_ringtone">PTT_CURRENT_RINGTONE</string>
+    <string name="sp_auto_start">PTT_AUTO_START</string>
+    <string name="sp_debug_on">DEBUG_ON</string>
+    <!-- default value -->
+    <string name="default_serverip" />
+    <string name="default_port">5060</string>
+    <string name="default_username" />
+    <string name="default_password" />
+    <!-- AddContact -->
+    <string name="add_contact">添加联系人</string>
+    <string name="empty_contact">姓名和手机不能为空</string>
+    <string name="add_success">添加成功</string>
+    <string name="add_fault">添加失败</string>
+    <string name="contact_already_in">此号码已在通讯录中！</string>
+    <string name="contact_name">姓名</string>
+    <string name="contact_num">电话号码</string>
+    <string name="contact_save">保存</string>
+    <string name="contact_save1">联系人数目达到上限，请删除无用的联系人后再添加！</string>
+    <string name="contact_save2">内存空间不足,请删除无用的联系人后再添加！</string>
+    <!-- PKB -->
+    <string name="contact_total1">共有</string>
+    <string name="contact_total2">个联系人</string>
+    <string name="contact_add">新建</string>
+    <string name="contact_delete">删除</string>
+    <string name="contact_edit">修改</string>
+    <string name="contact_call">呼叫</string>
+    <string name="contact_msg">发短信</string>
+    <string name="contact_del_success">删除成功</string>
+    <string name="contact_del_faulte">删除失败</string>
+    <string name="ok">确认</string>
+    <string name="cancle">取消</string>
+    <string name="alert">谨慎操作！</string>
+    <string name="sure">确认要删除此联系人吗？</string>
+    <string name="nopeople">无有效联系人！</string>
+    <string name="loading1">加载中……</string>
+    <string name="loading2">加载中</string>
+    <string name="loading3">加载更多……</string>
+    <string name="loading4">全部数据已加载 ！</string>
+    <!-- operator -->
+    <string name="contact_call1">呼叫</string>
+    <!-- editcontact -->
+    <string name="contact_detail">联系人详细信息</string>
+    <string name="contact_edit1">修改</string>
+    <string name="contact_edit_success">修改成功</string>
+    <string name="contact_edit_fault">修改失败</string>
+    <string name="contact_del_success1">删除成功</string>
+    <string name="contact_del_faulte1">删除失败</string>
+    <string name="contact_name2">姓名</string>
+    <string name="contact_num2">电话号码</string>
+    <string name="contact_delete1">删除此人</string>
+    <!-- chat -->
+    <string name="title1">与</string>
+    <string name="title2">的对话</string>
+    <string name="no_connect">与服务器失去连接!</string>
+    <string name="chat_menu0">重新发送</string>
+    <string name="chat_menu1">删除选中信息</string>
+    <string name="chat_menu2">删除当前会话</string>
+    <string name="chat_resend">对方信息无需发送!</string>
+    <string name="chat_careful">谨慎操作！</string>
+    <string name="chat_oper">确认要删除此会话吗？</string>
+    <string name="chat_oper_ok">确认</string>
+    <string name="chat_oper_cancle">取消</string>
+    <string name="chat_send_success">发送成功！</string>
+    <string name="chat_send_fault1">向( </string>
+    <string name="chat_send_fault2"> )发送失败!</string>
+    <string name="chat_name">我</string>
+    <!-- message -->
+    <string name="msg_menu0">新建会话</string>
+    <string name="msg_menu1">添加联系人</string>
+    <string name="msg_menu2">删除会话</string>
+    <string name="msg_title1">当前共有  </string>
+    <string name="msg_title2"> 条会话</string>
+    <string name="msg_nochat">当前列表无会话！</string>
+    <string name="alert_msg_no_enough_space_my">存储空间不足，将无法存储和接收短信，请手动删除一些数据</string>
+    <string name="dail_num_length">号码长度不得超过20位!</string>
+    <string name="msg_text_length">短信长度不得超过60个汉字或120个英文!</string>
+    <!-- newmessage -->
+    <string name="titlename">新建短信</string>
+    <string name="numisnull">发送号码不能为空！</string>
+    <string name="selectcontact">选择联系人</string>
+    <string name="newmsg_name">电话号码</string>
+    <string name="newmsg_text">短信内容</string>
+    <string name="sendnewmsg">发送</string>
+    <string name="exitnewmsg">退出</string>
+    <!-- group -->
+    <string name="group_menu0">呼叫</string>
+    <string name="group_menu1">发短信</string>
+    <string name="group_menu2">添加联系人</string>
+    <string name="group_menu3">刷新</string>
+    <string name="group_fresh">群组成员状态已刷新!</string>
+    <string name="group_title_group">群组</string>
+    <string name="group_title_groupmember">组成员</string>
+    <string name="group_call_groupmember">呼叫</string>
+    <string name="group_msg_groupmember">发短信</string>
+    <string name="group_add_groupmember">添加联系人</string>
+    <string name="group_fresh_groupmember">刷新</string>
+    <string name="group_change_to_auto">切换为默认对讲组</string>
+    <!-- ptt -->
+    <string name="ptt_call_menu">PTT组呼</string>
+    <string name="ptt_status">当前状态：</string>
+    <string name="current_grp">组号码：</string>
+    <string name="current_grp_name">组名称：</string>
+    <string name="ptt_talker">讲话人：</string>
+    <string name="ptt_free">空闲</string>
+    <string name="ptt_listening">听讲中</string>
+    <string name="ptt_init">对讲初始化</string>
+    <string name="ptt_calling">正在呼叫</string>
+    <string name="ptt_speaking">讲话中</string>
+    <string name="ptt_waiting">排队中</string>
+    <string name="ptt_cancled">申请已取消</string>
+    <string name="ptt_rejected">被拒绝</string>
+    <string name="ptt_close">关闭</string>
+    <string name="ptt_applying">申请话权</string>
+    <string name="ptt_nospeaker">无</string>
+    <string name="ptt_accepted">申请成功</string>
+    <string name="ptt_myself">自己</string>
+    <string name="ptt_waiting_full">队列已满</string>
+    <string name="ptt_waiting_droped">踢出队列</string>
+    <string name="ptt_waiting_timeout">申请超时</string>
+    <string name="ptt_getting_grp">正在获取组信息</string>
+    <string name="ptt_getting">正在获取</string>
+    <!-- about -->
+    <string name="aboutpyy">关于</string>
+    <string name="aboutv1">PTT软件–版本</string>
+    <string name="aboutv2"></string>
+    <string name="aboutv3"></string>
+    <string name="aboutv4"></string>
+    <string name="aboutv5">发布时间：</string>
+    <string name="ipbind">PTT切换至  ：</string>
+
+</resources>

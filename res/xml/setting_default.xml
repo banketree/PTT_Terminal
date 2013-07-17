@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:id="@+id/id_edittext_setting_serverip"
+        android:defaultValue="@string/default_serverip"
+        android:key="@string/sp_serverip" />
+    <EditTextPreference
+        android:id="@+id/id_edittext_setting_serverport"
+        android:defaultValue="@string/default_port"
+        android:key="@string/sp_port" />
+    <EditTextPreference
+        android:id="@+id/id_edittext_setting_username"
+        android:defaultValue="@string/default_username"
+        android:key="@string/sp_username" />
+    <EditTextPreference
+        android:id="@+id/id_edittext_setting_password"
+        android:defaultValue="@string/default_password"
+        android:key="@string/sp_password" />
+    <EditTextPreference
+        android:id="@+id/id_textview_default_ringtone"
+        android:key="@string/sp_current_ringtone" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/sp_autoregister" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/sp_auto_answer" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/sp_ar_handset" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/sp_ar_speaker" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/sp_auto_start" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/sp_debug_on" />
+
+</PreferenceScreen>

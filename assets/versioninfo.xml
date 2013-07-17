@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version id="1">
+    	<!-- important!!! Never edit the name manually -->
+<name>v6.0.0</name>
+    </version>
+    <version id="2">
+    	<!-- important!!! Never edit the build_time manually -->
+<build_time>2013-06-08 16:06:45</build_time>
+    </version>
+    <version id="3">
+<register_pw>888999</register_pw>
+    </version>
+</versions>

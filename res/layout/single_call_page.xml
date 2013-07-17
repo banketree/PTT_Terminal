@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/id_image_incallscreen"
+        android:layout_width="120dip"
+        android:layout_height="140dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/calling_anim"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/id_tv_calltype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/id_image_incallscreen"
+        android:layout_marginTop="24dp"
+        android:layout_toLeftOf="@+id/id_image_incallscreen"
+        android:text=""
+        android:textSize="30dip" />
+
+    <TextView
+        android:id="@+id/id_tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id_tv_calltype"
+        android:layout_below="@+id/id_tv_calltype"
+        android:layout_marginTop="22dp"
+        android:text=""
+        android:textSize="30dip" />
+
+    <TextView
+        android:id="@+id/id_tv_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_tv_calltype"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18dp"
+        android:textSize="20dip"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_answer_call"
+        android:contentDescription="@string/app_name"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="@string/menu_answer"
+        android:layout_below="@+id/id_tv_number"
+        android:layout_marginTop="82dp"
+        android:layout_toRightOf="@+id/id_tv_duration"
+        android:drawableTop="@drawable/ic_answer_call" />
+
+    <Button
+        android:id="@+id/btn_sound_call"
+        android:contentDescription="@string/app_name"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="@string/menu_speaker"
+        android:layout_alignBottom="@+id/btn_answer_call"
+        android:layout_centerHorizontal="true"
+        android:drawableTop="@drawable/ic_sound_call" />
+
+    <Button
+        android:id="@+id/btn_end_call"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/btn_sound_call"
+        android:layout_marginLeft="19dp"
+        android:layout_toRightOf="@+id/btn_sound_call"
+        android:contentDescription="@string/app_name"
+        android:drawableTop="@drawable/ic_end_call"
+        android:text="@string/btn_hangup" />
+
+</RelativeLayout>

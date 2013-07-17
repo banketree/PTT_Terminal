@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/group_chose_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#333233"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <Spinner
+        android:id="@+id/group_chose_Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/tv_call_ring_volume"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#333233"
+        android:text="@string/alert_title_choosear"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <RadioGroup
+        android:id="@+id/id_choosear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/id_ar_handset"
+            android:text="@string/menu_handset" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/id_ar_speaker"
+            android:text="@string/menu_speaker" >
+        </RadioButton>
+
+    </RadioGroup>
+
+</LinearLayout>
